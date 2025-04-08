@@ -6,9 +6,9 @@ Este script permite hacer una codificación en AV1 con audio opus de un director
 
 Características:
 
-Autoencode con AOMENC interactivo
-Autoencode con SVT-AV1 interactivo
-Análisis de CRF con ab-av1 para buscar unos ajustes de calidad y compresión con AV1 (en desarrollo, incompleto)
+* Autoencode con AOMENC interactivo
+* Autoencode con SVT-AV1 interactivo
+* Análisis de CRF con ab-av1 para buscar unos ajustes de calidad y compresión con AV1 (en desarrollo, incompleto)
 
 Dependencias:
 * ffmpeg
