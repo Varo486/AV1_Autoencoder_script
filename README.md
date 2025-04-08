@@ -10,7 +10,7 @@ Interactive AOMENC parameters for encoding
 Interactive SVT-AV1 parameters for encoding
 CRF Analysis with ab-av1 (still incomplete, it works)
 
-Dependences:
+Dependencies:
 * ffmpeg
 * libaom-av1
 * SvtAv1EncApp
