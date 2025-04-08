@@ -8,7 +8,7 @@ Features:
 
 * Interactive AOMENC parameters for encoding
 * Interactive SVT-AV1 parameters for encoding
-* CRF Analysis with ab-av1 (still incomplete, it works)
+* CRF Analysis with ab-av1 (it works, though I don't recommend this method as it's inefficient)
 
 Dependencies:
 * ffmpeg
