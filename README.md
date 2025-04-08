@@ -6,9 +6,9 @@ This script allows the user to do batch encodes with AV1, inside the directory o
 
 Features:
 
-Interactive AOMENC parameters for encoding
-Interactive SVT-AV1 parameters for encoding
-CRF Analysis with ab-av1 (still incomplete, it works)
+* Interactive AOMENC parameters for encoding
+* Interactive SVT-AV1 parameters for encoding
+* CRF Analysis with ab-av1 (still incomplete, it works)
 
 Dependencies:
 * ffmpeg
