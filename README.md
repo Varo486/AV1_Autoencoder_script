@@ -11,8 +11,8 @@ Autoencode con SVT-AV1 interactivo
 Análisis de CRF con ab-av1 para buscar unos ajustes de calidad y compresión con AV1 (en desarrollo, incompleto)
 
 Dependencias:
-ffmpeg
-libaom-av1
-SvtAv1EncApp
-ab-av1
-beep (opcional, para sonidos del script a través del speaker del PC)
+* ffmpeg
+* libaom-av1
+* SvtAv1EncApp
+* ab-av1
+* beep (opcional, para sonidos del script a través del speaker del PC)
