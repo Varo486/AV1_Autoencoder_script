@@ -16,3 +16,6 @@ Dependencies:
 * SvtAv1EncApp
 * ab-av1
 * beep (optional for pc-spkr output during batch encodes)
+
+Recommendations for AOMENC:
+You can run multiple instances of the script at the same time, they won't overwrite files by default.
