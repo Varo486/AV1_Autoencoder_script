@@ -1,6 +1,6 @@
 # AV1_Autoencoder_script
 
-This script allows the user to do batch encodes with AV1, inside the directory of the script, with a custom output directory.
+This script allows the user to do batch encodes with AV1 + opus audio, inside the directory of the script, with a custom output directory.
 
 ![alt text](https://github.com/Varo486/AV1_Autoencoder_script/blob/main/.gitignore/screenshot_aom.png "Captura de aomenc en funcionamiento")
 
