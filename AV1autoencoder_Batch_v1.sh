@@ -215,7 +215,8 @@ header
     echo "Processing: \"$input\""
     sleep 2
 
-    ffmpeg -i "$input" -threads 0 -c:v libaom-av1 -cpu-used $CPUPRESET -crf $CRF -pix_fmt yuv420p10le -aom-params "tile-columns=$TILE_COLUMNS:tile-rows=$TILE_ROWS:denoise-noise-level=$FILM_GRAIN:enable-dnl-denoising=$DENOISE_LEVEL" -c:a libopus -b:a $AUDIO_BITRATE -c:s copy "$DIR_OUTPUT/$filename[AV1].$container"
+    ffmpeg -i "$input" -map 0 -threads 0 -c:v libaom-av1 -cpu-used $CPUPRESET -crf $CRF -pix_fmt yuv420p10le -aom-params "tile-columns=$TILE_COLUMNS:tile-rows=$TILE_ROWS:denoise-noise-level=$FILM_GRAIN:enable-dnl-denoising=$DENOISE_LEVEL" -c:a libopus -b:a $AUDIO_BITRATE -c:s copy "$DIR_OUTPUT/$filename[AV1].$container"
+
     beep -f 800 -l 200 -n -f 640
     sleep 2
     clear
