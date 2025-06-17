@@ -268,7 +268,7 @@ header
     echo "Processing: \""$input"\""
     sleep 2
 
-    ffmpeg -i "$input" -threads 0 -c:v libsvtav1 -preset $PRESET -crf $CRF -psy 1 -c:a libopus -b:a $AUDIO_BITRATE -c:s copy "$DIR_OUTPUT"/"$filename[AV1].$container"
+    ffmpeg -i "$input" -map 0 -threads 0 -c:v libsvtav1 -preset $PRESET -crf $CRF -psy 1 -c:a libopus -b:a $AUDIO_BITRATE -c:s copy "$DIR_OUTPUT"/"$filename[AV1].$container"
     beep -f 800 -l 200 -n -f 640
     sleep 2
     # Place cursor in line 6, column 0
