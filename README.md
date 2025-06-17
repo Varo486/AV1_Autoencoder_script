@@ -6,7 +6,7 @@ This script allows the user to do batch encodes with AV1 + opus audio, inside th
 
 Features:
 
-* Interactive AOMENC parameters for encoding
+* Interactive AOMENC parameters for encoding (option for parallel encoding available!)
 * Interactive SVT-AV1 parameters for encoding
 * CRF Analysis with ab-av1 (it works, though I don't recommend this method as it's inefficient)
 
@@ -16,6 +16,4 @@ Dependencies:
 * SvtAv1EncApp
 * ab-av1
 * beep (optional for pc-spkr output during batch encodes)
-
-Recommendations for AOMENC:
-You can run multiple instances of the script at the same time, they won't overwrite files by default.
+* tput (for batch progress with AOMENC when encoding files in parallel)
