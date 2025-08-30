@@ -6,7 +6,7 @@ This script allows the user to do batch encodes with AV1 + opus audio, inside th
 
 Features:
 
-* Interactive AOMENC parameters for encoding (option for parallel encoding available!)
+* Interactive AOMENC parameters for encoding (option for parallel encoding available but manually, by opening more than one instance, which will ask to replace files before continuing)
 * Interactive SVT-AV1 parameters for encoding
 * CRF Analysis with ab-av1 (it works, though I don't recommend this method as it's inefficient)
 
@@ -22,3 +22,10 @@ Pending bugs:
 * Parallel encoding is not available at the moment with the current script (separate script in testing needs to be implemented to the original)
 * 5.1 opus audio encoding does not work currently, it will prompt a failure during an encode
 * Further testing needed to check if all audio/subtitles are being processed
+
+Todo:
+* Fix 5.1 audio encoding with opus
+* Add mp4 fdk-aac output
+* Add stereo downmix option
+* Implement parallel encoding with a progress list
+* Add progress information to the progress list
