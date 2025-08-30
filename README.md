@@ -20,4 +20,5 @@ Dependencies:
 
 Pending bugs:
 * Parallel encoding is not available at the moment with the current script (separate script in testing needs to be implemented to the original)
-* 5.1 opus audio does not work currently, it will prompt a failure during an encode
+* 5.1 opus audio encoding does not work currently, it will prompt a failure during an encode
+* Further testing needed to check if all audio/subtitles are being processed
